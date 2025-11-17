@@ -28,7 +28,7 @@ const messageSchema = new mongoose.Schema({
 
 const Message = mongoose.model('Message', messageSchema);
 
-const TELEGRAM_BOT_TOKEN = '8239147230:AAFQN-D6fu0U6Og3SppPxjuFrWjBn5gt3WU';
+const TELEGRAM_BOT_TOKEN = '823';
 // CHAT ID ni number formatda ishlating
 const TELEGRAM_CHAT_ID = 571241984;
 
