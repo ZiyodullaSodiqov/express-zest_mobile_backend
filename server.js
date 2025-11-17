@@ -9,7 +9,7 @@ const PORT = process.env.PORT || 3000;
 app.use(cors());
 app.use(express.json());
 
-const MONGODB_URI = process.env.MONGODB_URI || 'mongodb+srv://Ziydoulla:ziyodulla0105@cluster0.heagvwv.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
+const MONGODB_URI = process.env.MONGODB_URI || '';
 mongoose.connect(MONGODB_URI, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
@@ -28,7 +28,7 @@ const messageSchema = new mongoose.Schema({
 
 const Message = mongoose.model('Message', messageSchema);
 
-const TELEGRAM_BOT_TOKEN = '8239147230:AAGs_CPOMk2i9y-2uyLSP_J6wCRA4uwARfs';
+const TELEGRAM_BOT_TOKEN = '';
 // CHAT ID ni number formatda ishlating
 const TELEGRAM_CHAT_ID = 571241984;
 
