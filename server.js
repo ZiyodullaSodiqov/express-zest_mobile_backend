@@ -374,6 +374,4 @@ mongoose.connection.on('error', (err) => {
 // Start server
 app.listen(PORT, () => {
   console.log(`🚀 Server ${PORT}-portda ishga tushdi`);
-  console.log(`🤖 Telegram bot faollashtirildi`);
-  console.log(`🗄️  MongoDB: ${MONGODB_URI}`);
 });
